@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- App theme colors - Using only the three specified colors -->
+    <color name="light_background">#FBFFFD</color>
+    <color name="dark_blue">#08244D</color>
+    <color name="light_blue_gray">#AFC1D0</color>
+    
+    <!-- App theme colors mapped to functional names -->
+    <color name="splash_background_start">@color/light_background</color>
+    <color name="splash_background_end">@color/light_background</color>
+    <color name="text_dark_blue">@color/dark_blue</color>
+    <color name="button_color">@color/dark_blue</color>
+    <color name="container_background">@color/light_blue_gray</color>
+    <color name="main_text_color">@color/dark_blue</color>
+    <color name="login_button_color">@color/dark_blue</color>
+    <color name="login_button_text">@color/light_background</color>
+    
+    <!-- Task status colors - We'll keep these for functional differentiation -->
+    <color name="status_pending">#F9A826</color>
+    <color name="status_in_progress">#3498DB</color>
+    <color name="status_completed">#2ECC71</color>
+    <color name="status_overdue">#E74C3C</color>
+    
+    <!-- Tab colors -->
+    <color name="tab_text_color">#666666</color>
+    
+    <!-- Text colors -->
+    <color name="gray_text">#757575</color>
+    
+    <!-- Calendar colors -->
+    <color name="calendar_gray">#AAAAAA</color>
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+    <!-- App Basics -->
+    <string name="app_name">TaskFlow</string>
+    <string name="app_version">v1.0</string>
+    <string name="version_text">TaskFlow v1.0</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">Manage your task,</string>
+    <string name="splash_subtitle_emphasis">quickly.</string>
+    <string name="get_started">Get Started →</string>
+    
+    <!-- Login Screen -->
+    <string name="welcome">Welcome</string>
+    <string name="google_login">Google Login</string>
+    <string name="terms_privacy">By signing in, you agree to the terms and privacy policy.</string>
+    
+    <!-- Home Screen -->
+    <string name="hello">Hello,</string>
+    <string name="your_tasks">Your Tasks</string>
+    <string name="no_tasks_found">No tasks found</string>
+    <string name="tap_plus_to_add_tasks">Tap the + button below to create your first task</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="empty_tasks_illustration">Empty task list illustration</string>
+    <string name="task_list">List of your tasks</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="tasks">Tasks</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="back">Back</string>
+    
+    <!-- Task Management -->
+    <string name="add_task">Add Task</string>
+    <string name="create_task">Create task</string>
+    <string name="edit_task">Edit task</string>
+    <string name="delete_task">Delete task</string>
+    <string name="save_task">Save task</string>
+    <string name="title">Title</string>
+    <string name="enter_task_title">Enter task title</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select date</string>
+    <string name="start_time">Start time</string>
+    <string name="end_time">End time</string>
+    <string name="attachment">Attachment</string>
+    <string name="attach_file">ATTACH FILE</string>
+    <string name="description">Description</string>
+    <string name="add_description">Add description</string>
+    
+    <!-- Task statuses -->
+    <string name="status_pending">Pending</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_overdue">Overdue</string>
+    
+    <!-- Error messages -->
+    <string name="error_title_empty">Title cannot be empty</string>
+    <string name="error_date_required">Date is required</string>
+    <string name="error_time_required">Start and end time are required</string>
+</resources>

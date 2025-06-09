@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TaskFlow" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/light_blue_gray</item>
+        <item name="colorPrimaryVariant">@color/light_blue_gray</item>
+        <item name="colorOnPrimary">@color/dark_blue</item>
+        <item name="colorPrimaryContainer">@color/light_blue_gray</item>
+        <item name="colorSurface">@color/light_background</item>
+        <!-- Adding activity transition animations -->
+        <item name="android:windowAnimationStyle">@style/ActivityTransitionAnimation</item>
+    </style>
+
+    <style name="Theme.TaskFlow" parent="Base.Theme.TaskFlow" />
+    
+    <!-- No action bar theme variant with status bar color -->
+    <style name="Theme.TaskFlow.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/button_color</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    
+    <!-- Activity Transition Animation Style -->
+    <style name="ActivityTransitionAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+    
+    <!-- Tab Text Style for Task Filters -->
+    <style name="TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
